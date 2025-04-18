@@ -24,4 +24,8 @@ Git Work Flow Procedure
 4. Add the remote repository
 	-``` git remote add origin <url> ```
 
+<<<<<<< HEAD
 5. Add pull repuest to the master branch
+=======
+5. Add pull request to the master branch
+>>>>>>> f70e653e8d7df5d588aae7822106977565311042
