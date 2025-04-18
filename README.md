@@ -21,19 +21,55 @@ How to start a project with git.
 
 ## Git Work Flow Procedure for Collaborator
 
-If the shared repo is on GitHub, the project lead should create a new repo is on github, clone it.
+### Getting Started
+
+Go to the github project and get the clone repo url. And clone it.
+
 ```git clone <url>```
 
-Once the repo is cloned create your feature branch from the dev branch
+### Continued Development
+
+To start a new feature development you need to clone the dev branch into a new feature branch 
 ```
 git checkout dev
 git checkout -b <branch_name>
 ```
 
-   
+Make changes to the code base to meet the requiments of the task.
 
-5. Add pull request to the master branch
-	-``` git commit -m "Initial commit" ```
+``` 
+//do something 
+```
+
+Save your files
+
+Stage and Commit code
+
+```
+git add -A
+git commit -m "msg"
+```
+
+Merge our changes into the most recent version of the dev branch
+```
+git checkout dev
+git pull origin dev
+git merge <feature_branch>
+```
+
+If code conflicts, resolve them!
+> Use the Merge Conflict Tool Reolve conflicts
+ Stage and commit conflict resolutions
+ ```
+ git add -A
+ git commit -m "msg"
+ ```
+
+ Push our changes to the remote dev branch
+ ```
+ git push origin dev
+ ```
+
 
 5. Tagging commits
 ``` git tag -a v"version" -m "msg"```
