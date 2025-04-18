@@ -12,10 +12,13 @@ How to start a project with git.
 
 Git Work Flow Procedure 
 
-1. Add your git ignore
-Add your git ignore
+1. To Create and add an ingore file using terminal
+   * touch .gitignore
+   * git add .gitignore
 
-2. Commit the changes
+2. Add new branch
+   
+3. Commit the changes
 	-``` git commit -m "Initial commit" ```
 
 4. Add the remote repository
