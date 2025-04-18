@@ -21,4 +21,4 @@ Add your git ignore
 4. Add the remote repository
 	-``` git remote add origin <url> ```
 
-Add pull request to the master branch
+5. Add pull request to the master branch
