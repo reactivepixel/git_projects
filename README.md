@@ -70,6 +70,11 @@ If code conflicts, resolve them!
  git push origin dev
  ```
 
+ ### Release Procedure
 
-5. Tagging commits
-``` git tag -a v"version" -m "msg"```
+Tag the release version
+
+``` 
+git checkout dev
+git tag -a "v1.0.0" -m "msg"
+```
