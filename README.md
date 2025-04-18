@@ -1,2 +1,3 @@
 # git_pro
-Add your git ignore
+
+1. Add your git ignore
