@@ -4,4 +4,9 @@ Git Work Flow Procedure
 
 1. Add your git ignore
 
-some code here
+Add your git ignore
+
+1. Commit the changes
+	-``` git commit -m "Initial commit" ```
+
+1. Add new branch
