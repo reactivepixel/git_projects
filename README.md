@@ -27,5 +27,5 @@ Git Work Flow Procedure
 Add pull request to the master branch
 	-``` git commit -m "Initial commit" ```
 
-1. Tagging commits
+5. Tagging commits
 ``` git tag -a v"version" -m "msg"```
