@@ -22,3 +22,7 @@ Add your git ignore
 	-``` git remote add origin <url> ```
 
 Add pull request to the master branch
+	-``` git commit -m "Initial commit" ```
+
+1. Tagging commits
+``` git tag -a v"version" -m "msg"```
