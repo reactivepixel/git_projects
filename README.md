@@ -19,6 +19,6 @@ Add your git ignore
 	-``` git commit -m "Initial commit" ```
 
 4. Add the remote repository
-	-``` git remotee add origin <url> ```
+	-``` git remote add origin <url> ```
 
 Add pull request to the master branch
