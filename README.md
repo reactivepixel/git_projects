@@ -8,4 +8,4 @@ Git Work Flow Procedure
 
 
 
-1. Git push origin main
+1. Push changes to git - Git push origin <branch_name>
