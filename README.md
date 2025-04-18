@@ -10,19 +10,42 @@ How to start a project with git.
 1. protect the main branch with branch protection rules
 1. Implement a Git Workflow Procedure to control the development process
 
-Git Work Flow Procedure 
+## Git Work Flow Procedure for Project Lead
+
+1. Create a new repository on GitHub
+   * Go to GitHub and create a new repository.
+   * Initialize the repository with a README file.
+   * Add a .gitignore file for your project type (e.g., Node, Python, etc.).
+   * Add each collaborator as a contributor to the repository.
+   * Create a dev branch
+
+   * Add the remote repository
+	- ``` git remote add origin <url> ```
 
 1. To Create and add an ingore file using terminal
    * touch .gitignore
    * git add .gitignore
 
-2. Add new branch
-   
-3. Commit the changes
-	-``` git commit -m "Initial commit" ```
+2. Make the initial commit
+   * ```git add .gitignore```
+   * ```git commit -m "Initial commit"```
 
-4. Add the remote repository
-	-``` git remote add origin <url> ```
+1. Push the initial commit to the remote repository
+   * ```git push origin dev```
+
+
+## Git Work Flow Procedure for Collaborator
+
+If the shared repo is on GitHub, the project lead should create a new repo is on github, clone it.
+```git clone <url>```
+
+Once the repo is cloned create your feature branch from the dev branch
+```
+git checkout dev
+git checkout -b <branch_name>
+```
+
+   
 
 Add pull request to the master branch
 	-``` git commit -m "Initial commit" ```
