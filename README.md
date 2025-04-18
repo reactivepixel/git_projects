@@ -10,3 +10,5 @@ Add your git ignore
 
 4. Add the remote repository
 	-``` git remotee add origin <url> ```
+
+Add pull repuest to the master branch
