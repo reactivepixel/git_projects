@@ -15,24 +15,9 @@ How to start a project with git.
 1. Create a new repository on GitHub
    * Go to GitHub and create a new repository.
    * Initialize the repository with a README file.
-   * Add a .gitignore file for your project type (e.g., Node, Python, etc.).
+   * Add a .gitignore template file for your project type (e.g., Node, Python, etc.).
    * Add each collaborator as a contributor to the repository.
    * Create a dev branch
-
-   * Add the remote repository
-	- ``` git remote add origin <url> ```
-
-1. To Create and add an ingore file using terminal
-   * touch .gitignore
-   * git add .gitignore
-
-2. Make the initial commit
-   * ```git add .gitignore```
-   * ```git commit -m "Initial commit"```
-
-1. Push the initial commit to the remote repository
-   * ```git push origin dev```
-
 
 ## Git Work Flow Procedure for Collaborator
 
