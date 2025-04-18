@@ -4,9 +4,10 @@ Git Work Flow Procedure
 
 1. Add your git ignore
 
-Add your git ignore
-
-1. Commit the changes
+2. Add new branch
+   
+3. Commit the changes
 	-``` git commit -m "Initial commit" ```
 
-1. Add new branch
+4. Add the remote repository
+	-``` git remotee add origin <url> ```
