@@ -24,7 +24,7 @@ Git Work Flow Procedure
 4. Add the remote repository
 	-``` git remote add origin <url> ```
 
-Add pull request to the master branch
+5. Add pull request to the master branch
 	-``` git commit -m "Initial commit" ```
 
 5. Tagging commits
