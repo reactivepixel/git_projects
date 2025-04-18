@@ -2,7 +2,9 @@
 
 Git Work Flow Procedure 
 
-1. Add your git ignore
+1. To Create and add an ingore file using terminal
+   * touch .gitignore
+   * git add .gitignore
 
 2. Add new branch
    
