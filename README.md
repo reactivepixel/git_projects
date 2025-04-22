@@ -1,4 +1,4 @@
-# git_pro
+# Git Projects
 
 How to start a project with git.
 
